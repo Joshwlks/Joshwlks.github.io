@@ -19,7 +19,7 @@ function setup() {
   
   
  
- var cw = displayWidth / 3;
+ var cw = displayWidth / 4;
  var pts1 = font.textToPoints('PragmatiQ', cw, 300, 192);
  var pts2 = font.textToPoints('Solutions', cw, 475, 175);
   //console.log(pts1);
