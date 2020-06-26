@@ -21,7 +21,7 @@ function setup() {
  
 
 
- var pts1 = font.textToPoints('PragmatiQ', 300, 300, 192);
+ var pts1 = font.textToPoints('PragmatiQ', 200, 300, 192);
  var pts2 = font.textToPoints('Solutions', 400, 475, 175);
   //console.log(pts1);
   //console.log(pts2);
