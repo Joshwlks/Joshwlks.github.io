@@ -1,3 +1,5 @@
+//pipes function sets the empty space in a height, the length of both pipes, the width and the speed they travel at.
+
 function Pipe() {
   this.spacing = 175;
   this.top = random(height / 6, (3 / 4) * height);
