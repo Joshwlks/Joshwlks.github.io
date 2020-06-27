@@ -3,7 +3,7 @@ var font;
 //var vehicles2 = [];
   
 function preload() { 
-  font = loadFont('MontserratAlternates-Medium.otf'); 
+  font = loadFont('ChunkFive-Regular.otf'); 
 } 
    
 //  Canvas area and color  
@@ -14,8 +14,8 @@ function setup() {
   textSize(50); 
   fill(255); 
   noStroke();
-  textAlign(CENTER);
-  text('Welcome to joshwilkins.co.uk', 700, 100);
+  textAlign(CENTER,TOP);
+  text('Welcome to joshwilkins.co.uk', 683, 100);
 }
   
   
