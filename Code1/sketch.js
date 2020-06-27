@@ -25,8 +25,8 @@ function setup() {
   textAlign(LEFT);
   text('Other', 1024.5, 500);
 
-var pts1 = font.textToPoints('Projects', width/2, height/2, 192);
-var pts2 = font.textToPoints('Solutions', 400, 475, 175);
+var pts1 = font.textToPoints('Projects', width/2-100, height/2, 192);
+var pts2 = font.textToPoints('Solutions', width/2 - 200, height/2, 192);
 
   
 	  for (var i = 0; i < pts1.length; i++){
