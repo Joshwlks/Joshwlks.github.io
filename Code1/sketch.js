@@ -11,9 +11,10 @@ function setup() {
   createCanvas(displayWidth, displayHeight); 
   background(51);
   textFont(font)
-  textSize(150); 
+  textSize(50); 
   fill(255); 
   noStroke();
+  textAlign(CENTER);
   text('Welcome to joshwilkins.co.uk', 300, 300);
   
   
@@ -21,8 +22,8 @@ function setup() {
  
 
 
- var pts1 = font.textToPoints('PragmatiQ', 200, 300, 192);
- var pts2 = font.textToPoints('Solutions', 400, 475, 175);
+ var pts1; //font.textToPoints('PragmatiQ', 200, 300, 192);
+ var pts2; //font.textToPoints('Solutions', 400, 475, 175);
   //console.log(pts1);
   //console.log(pts2);
   
