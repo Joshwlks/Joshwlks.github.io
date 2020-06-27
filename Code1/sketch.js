@@ -21,7 +21,7 @@ function setup() {
   text('Projects', 600, 300);
   textSize(125);
   textAlign(LEFT,CENTER);
-  text('Blog', 766, 300);
+  text('Blog', 850, 300);
 
 }
   
