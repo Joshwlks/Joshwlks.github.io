@@ -16,6 +16,7 @@ function setup() {
   noStroke();
   textAlign(CENTER,TOP);
   text('Welcome to joshwilkins.co.uk', 683, 50);
+  textSize(150);
   textAlign(LEFT,CENTER);
   text('Projects', 683, 400);
 }
