@@ -22,18 +22,20 @@ function setup() {
   //textSize(192);
   //textAlign(CENTER);
   txt1 = "Projects"; //text(, 683, 200);
-  x = width/2 - 130;
-  y = 200;
-  var pts1 = font.textToPoints(txt1, x, y, 192);
+  x = width/2 - 300;
+  y = height/4;
+ 
   textSize(100);
   textAlign(RIGHT);
   text('Blog', 320, 500);
+	
   textSize(100);
   textAlign(LEFT);
   text('Other', 1024.5, 500);
+}
 
-
-  
+  function toPts (){
+	   var pts1 = font.textToPoints(txt1, x, y, 192);
   
   
  
