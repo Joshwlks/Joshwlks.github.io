@@ -21,10 +21,11 @@ function setup() {
   text('Welcome to joshwilkins.co.uk', 683, 50);
   //textSize(192);
   //textAlign(CENTER);
-  txt1 = "Projects"; //text(, 683, 200);
+  txt1 = 'Projects'; //text(, 683, 200);
   x = width/2 - 300;
   y = height/4;
- 
+  var pts1 = font.textToPoints(txt1, x, y, 192);
+	
   textSize(100);
   textAlign(RIGHT);
   text('Blog', 320, 500);
@@ -34,8 +35,6 @@ function setup() {
   text('Other', 1024.5, 500);
 }
 
-  function toPts (){
-	   var pts1 = font.textToPoints(txt1, x, y, 192);
   
   
  
