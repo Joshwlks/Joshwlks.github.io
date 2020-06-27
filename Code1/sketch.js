@@ -18,10 +18,10 @@ function setup() {
   text('Welcome to joshwilkins.co.uk', 683, 50);
   textSize(125);
   textAlign(RIGHT,CENTER);
-  text('Projects', 683, 300);
+  text('Projects', 600, 300);
   textSize(125);
   textAlign(LEFT,CENTER);
-  text('Blog', 683, 300);
+  text('Blog', 766, 300);
 
 }
   
