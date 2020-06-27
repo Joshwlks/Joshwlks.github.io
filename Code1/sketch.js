@@ -16,12 +16,15 @@ function setup() {
   noStroke();
   textAlign(CENTER,TOP);
   text('Welcome to joshwilkins.co.uk', 683, 50);
-  textSize(125);
-  textAlign(RIGHT,CENTER);
-  text('Projects', 600, 300);
-  textSize(125);
-  textAlign(LEFT,CENTER);
-  text('Blog', 1000, 300);
+  textSize(192);
+  textAlign(CENTER,CENTER);
+  text('Projects', 683, 300);
+  textSize(100);
+  textAlign(RIGHT);
+  text('Blog', 683, 600);
+  textSize(100);
+  textAlign(LEFT);
+  text('Other', 683, 600);
 
 }
   
