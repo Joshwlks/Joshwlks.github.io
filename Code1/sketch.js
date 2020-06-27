@@ -10,12 +10,12 @@ function preload() {
 function setup() { 
   createCanvas(displayWidth, displayHeight); 
   background(51);
-  //textFont(font)
-  //textSize(150); 
-  //fill(255); 
-  //noStroke();
-  //text('PragmatiQ', 300, 300);
-  //text('Solutions', 300, 425);
+  textFont(font)
+  textSize(150); 
+  fill(255); 
+  noStroke();
+  text('Welcome to joshwilkins.co.uk', 300, 300);
+  
   
   
  
