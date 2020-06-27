@@ -1,6 +1,6 @@
 var font;
-var vehicles1 = [];
-var vehicles2 = [];
+//var vehicles1 = [];
+//var vehicles2 = [];
   
 function preload() { 
   font = loadFont('MontserratAlternates-Medium.otf'); 
