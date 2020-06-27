@@ -1,9 +1,9 @@
 var font;
 var txt1;
-var txt2;
-var txt3;
+var x1;
+var y1;
 var vehicles1 = [];
-//var vehicles2 = [];
+var vehicles2 = [];
   
 function preload() { 
   font = loadFont('ChunkFive-Regular.otf'); 
@@ -19,15 +19,18 @@ function setup() {
   noStroke();
   textAlign(CENTER,TOP);
   text('Welcome to joshwilkins.co.uk', 683, 50);
-  textSize(192);
-  textAlign(CENTER);
-  txt1 = text('Projects', 683, 200);
+  //textSize(192);
+  //textAlign(CENTER);
+  txt1 = "Projects"; //text(, 683, 200);
+  x = width/2 - 130;
+  y = 200;
+  var pts1 = font.textToPoints(txt1, x, y, 192);
   textSize(100);
   textAlign(RIGHT);
-  txt2 = text('Blog', 320, 500);
+  text('Blog', 320, 500);
   textSize(100);
   textAlign(LEFT);
-  txt3 = text('Other', 1024.5, 500);
+  text('Other', 1024.5, 500);
 
 
   
@@ -36,7 +39,7 @@ function setup() {
  
 
 
- var pts1 = font.textToPoints(txt3);
+ //var pts1 = font.textToPoints(txt3);
  //var pts2; //font.textToPoints('Solutions', 400, 475, 175);
   //console.log(pts1);
   //console.log(pts2);
@@ -59,11 +62,15 @@ function setup() {
 		//point(pt.x, pt.y);
 		} */
 
-	}  
+}  
 
 
-	function draw() {
-	   background(51);
+	
+
+
+
+function draw() {
+	background(51);
 	  for(var i = 0; i < vehicles1.length; i++){
 		var v1 = vehicles1[i];
 		v1.behaviours();
@@ -77,6 +84,6 @@ function setup() {
 		v2.update();
 		v2.show();
 		} */
-
-	  } 
+	
+} 
 
