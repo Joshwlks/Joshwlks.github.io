@@ -2,7 +2,7 @@ var font;
 var txt1;
 var txt2;
 var txt3;
-//var vehicles1 = [];
+var vehicles1 = [];
 //var vehicles2 = [];
   
 function preload() { 
