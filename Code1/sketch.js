@@ -27,7 +27,7 @@ function setup() {
   //console.log(pts1);
   //console.log(pts2);
   
-	  ```for (var i = 0; i < pts1.length; i++){
+	 /* for (var i = 0; i < pts1.length; i++){
 		var pt = pts1[i];
 		var vehicle = new Vehicle(pt.x, pt.y);
 		vehicles1.push(vehicle);
@@ -64,5 +64,5 @@ function setup() {
 		v2.show();
 		}
 
-	  }```
+	  } */
 
