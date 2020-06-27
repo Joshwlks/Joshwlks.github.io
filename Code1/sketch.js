@@ -21,10 +21,10 @@ function setup() {
   text('Projects', 683, 200);
   textSize(100);
   textAlign(RIGHT);
-  text('Blog', 341.5, 600);
+  text('Blog', 320, 500);
   textSize(100);
   textAlign(LEFT);
-  text('Other', 1024.5, 600);
+  text('Other', 1024.5, 500);
 
 }
   
