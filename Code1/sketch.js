@@ -21,12 +21,15 @@ function setup() {
   textFont(font);
   
   textSize(250);
-  var p ='Coming Soon';
-  var pW = textWidth(p);
+  var c ='Coming';
+  var s ='Soon';
+  var cW = textWidth(c);
+  var sW = textWidth(s);
+  
   
 
-var pts1 = font.textToPoints('Coming Soon', wW/2 - pW/2, wH/2, 250);
-//var pts2 = font.textToPoints('Solutions', width/2 - 200, height/2, 192);
+var pts1 = font.textToPoints('Coming', wW/2 - cW/2, wH/2, 250);
+var pts2 = font.textToPoints('Soon', wW/2 - sW/2, wH/2 + 200, 250);
 
   
 	  for (var i = 0; i < pts1.length; i++){
@@ -38,14 +41,14 @@ var pts1 = font.textToPoints('Coming Soon', wW/2 - pW/2, wH/2, 250);
 		//point(pt.x, pt.y);
 		}
 
-	  /*for (var i = 0; i < pts2.length; i++){
+	  for (var i = 0; i < pts2.length; i++){
 		var pt = pts2[i];
 		var vehicle = new Vehicle(pt.x, pt.y);
 		vehicles2.push(vehicle);
 		//stroke(255);
 		//strokeWeight(8);
 		//point(pt.x, pt.y);
-		} */
+		} 
 
 }  
 
@@ -63,12 +66,11 @@ function draw() {
 		v1.show();
 		}
 
-	  	/*for(var i = 0; i < vehicles2.length; i++){
+	  	for(var i = 0; i < vehicles2.length; i++){
 		var v2 = vehicles2[i];
 		v2.behaviours();
 		v2.update();
 		v2.show();
-		} */
+		} 
 	
 } 
-
